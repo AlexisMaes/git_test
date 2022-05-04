@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -16,43 +18,48 @@ a{
     color: #E5E7EB;
 }
 
-.navbar{
+
+
+.primary-header{
     background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 5px;
 }
 
-.nbstart{
+.logo{
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
 }
 
-.nbend{
+.primary-nav{
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     font-size: 18px;
 }
 
-.presentation{
+.hero{
     display: flex;
     background-color: #1f2937;
-    padding: 150px;
+    padding: 100px;
     justify-content: space-around;
     gap: 50px;
     align-items: center;
+    flex-wrap:nowrap;
 }
 
-.presentationtext{
-    width: 500px;
+.heroleft{
+    display: column;
 }
 
-.presentationtext h1{
+.heroleft h1{
     color: #f9faf8;
     font-weight: 800;
 }
 
-.presentationtext p{
+.heroleft p{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -64,5 +71,116 @@ a{
     padding: 0 35px;
     line-height: 2;
     border-radius: 5px;
+    font-size: 18px;
+}
+
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+    margin-top: -2rem;
+    color: rgb(146, 145, 145);
+}
+
+.text li{
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+}
+
+.gallery li{
+    list-style: none;
+    text-decoration: none;
+    border: solid 4px #3882f6 ;
+    border-radius: 15px;
+    width: 8rem;
+    height: 8rem;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+    width: 40rem;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.signature{
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 10rem;
+    padding: 2rem;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+h3{
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.call-to-action p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -15px;
+}
+
+.signup-reverse{
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0 35px;
+    line-height: 2;
+    border-radius: 5px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.footer p{
+    color: #E5E7EB;
     font-size: 20px;
 }
