@@ -54,6 +54,10 @@ a{
     flex-wrap:nowrap;
 }
 
+.heroright{
+    border-radius: 5px;
+}
+
 .heroleft{
     display: column;
 }
