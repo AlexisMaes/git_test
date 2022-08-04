@@ -19,13 +19,23 @@ li{
 
 a{
     text-decoration: none;
-    color: #E5E7EB;
+    color: #FCF8E8;
 }
 
+.primary-nav li{
+    transition: all 0.4s ease;
+}
+.primary-nav li:hover{
+    margin-top: -5px;
+    color: #E5CB9F;
+}
+.primary-nav li a:hover{
+    color: #E5CB9F;
 
+}
 
 .primary-header{
-    background-color: #1f2937;
+    background-color: #68A7AD;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,8 +44,8 @@ a{
 
 .logo{
     display: flex;
-    color: #f9faf8;
-    font-size: 24px;
+    color: #FCF8E8;
+    font-size: 36px;
 }
 
 .primary-nav{
@@ -44,9 +54,36 @@ a{
     font-size: 18px;
 }
 
+.history{
+    display: flex;
+    background-color: #E5CB9F;
+    padding: 100px;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.historyleft{
+    border-radius: 15px;
+}
+
+.historyright{
+    display: column;
+}
+
+.history h1{
+    color: #68A7AD;
+    font-weight: 800;
+}
+
+.history p{
+    color: #68A7AD;
+    font-size: 18px;
+}
+
 .hero{
     display: flex;
-    background-color: #1f2937;
+    background-color: #99C4C8;
     padding: 100px;
     justify-content: space-around;
     gap: 50px;
@@ -55,7 +92,7 @@ a{
 }
 
 .heroright{
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .heroleft{
@@ -74,7 +111,7 @@ a{
 
 .signup{
     border: 0;
-    background-color: #3882f6;
+    background-color: #E5CB9F;
     color: #f9faf8;
     padding: 0 35px;
     line-height: 2;
@@ -85,7 +122,7 @@ a{
 
 h2{
     font-size: 36px;
-    color: #1f2937;
+    color: rgb(146, 145, 145);
     text-align: center;
 }
 
@@ -93,7 +130,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .text{
@@ -103,25 +140,28 @@ h2{
     padding: 1rem;
     margin-top: -2rem;
     color: rgb(146, 145, 145);
+    font-size: 1.5rem;
 }
 
 .text li{
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
     text-align: center;
 }
 
 .gallery li{
     list-style: none;
     text-decoration: none;
-    border: solid 4px #3882f6 ;
+    border: solid 4px #EEE4AB ;
     border-radius: 15px;
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
+    background-image: url('https://picsum.photos/195') ;
 }
 
+
 .quote{
-    background-color: #e5e7eb;
+    background-color: #EEE4AB;
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -133,7 +173,7 @@ h2{
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
-    color: #1f2937;
+    color: rgb(146, 145, 145);
 }
 
 .signature{
@@ -152,7 +192,7 @@ h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #99C4C8;
     gap: 10rem;
     padding: 2rem;
     border-radius: 15px;
@@ -161,7 +201,7 @@ h2{
 
 h3{
     font-size: 20px;
-    color: #E5E7EB;
+    color: #f9faf8;
 }
 
 .call-to-action p{
@@ -172,7 +212,7 @@ h3{
 
 .signup-reverse{
     border: 2px solid #f9faf8;
-    background-color: #3882f6;
+    background-color: #E5CB9F;
     color: #f9faf8;
     padding: 0 35px;
     line-height: 2;
@@ -182,7 +222,7 @@ h3{
 }
 
 .footer{
-    background-color: #1f2937;
+    background-color: #68A7AD;
     margin: 0;
     padding: 0.5rem;
     text-align: center;
